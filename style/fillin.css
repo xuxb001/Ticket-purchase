@@ -1,0 +1,72 @@
+.flex{
+  display: flex;
+}
+.information{
+  border-radius: 4px;
+  border: 1px solid #999;
+  padding: 15px 12px;
+  margin:0 12px 20px 12px;
+}
+.basic .tit{
+  display: inline-block;
+  width: 15%;
+  color: #999;
+}
+.basic span{
+  line-height: 2;
+}
+.quantity .q-input{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.quantity .q-input .q-number{
+  display: inline-block;
+  width: 20%;
+  font-size: 16px;
+}
+.quantity .q-input .add-dec input{
+  width: 100px;
+  margin: 0 12px;
+}
+.quantity .q-input .add-dec{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.quantity .q-input .add-dec .btn{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  border:2px solid #3981f7;
+  border-radius: 50%;
+  color: #3981f7;
+  text-align: center;
+  font-weight: 500;
+  cursor: pointer;
+}
+.quantity .con{
+  font-size: 16px;
+  color: #999;
+  margin-bottom: 8px;
+}
+.quantity .q-link a{
+  color: #3981f7;
+}
+.information .visitor{
+  font-size: 16px;
+  font-weight: 600;
+}
+.information .visitor-con{
+  font-size: 12px;
+  color: #999;
+}
+.information .button{
+  border: 1px solid #999;
+  border-radius: 4px;
+  padding: 5px 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
